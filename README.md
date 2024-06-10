@@ -42,7 +42,7 @@ make
 ./first SA SP f_speed
 ./second SA SP s_speed
 ```
-где size - это длина стороны, деленная на 2. SA - server adress, SP - server port, OP - observer port. f_speed и s_speed - скорости садовников
+где size - это длина стороны, деленная на 2. SA - server adress, SP - server port. f_speed и s_speed - скорости садовников
 
 ### Реализация
 #### 4-5
