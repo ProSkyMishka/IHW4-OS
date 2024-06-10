@@ -1,0 +1,45 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     server
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createServerSocket, symObjAddr: 0x0, symBinAddr: 0x100002098, symSize: 0x104 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _shared_object, symObjAddr: 0x1830, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0x6C, size: 0x8, addend: 0x0, symName: _sem_shared_object, symObjAddr: 0x1838, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x82, offset: 0x82, size: 0x8, addend: 0x0, symName: _children_counter, symObjAddr: 0x4E38, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: _pipe_fd, symBinAddr: 0x100008030, symSize: 0x0 }
+  - { offsetInCU: 0xCB, offset: 0xCB, size: 0x8, addend: 0x0, symName: _fg_pipe_fd, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offsetInCU: 0xE0, offset: 0xE0, size: 0x8, addend: 0x0, symName: _sg_pipe_fd, symBinAddr: 0x10000804C, symSize: 0x0 }
+  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _results_pipe_fd, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _grardeners_threads, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0x1C8, offset: 0x1C8, size: 0x8, addend: 0x0, symName: _task_reader_thread, symBinAddr: 0x100008058, symSize: 0x0 }
+  - { offsetInCU: 0x1DE, offset: 0x1DE, size: 0x8, addend: 0x0, symName: _result_sender_thread, symBinAddr: 0x100008038, symSize: 0x0 }
+  - { offsetInCU: 0x1F4, offset: 0x1F4, size: 0x8, addend: 0x0, symName: _server_socket, symBinAddr: 0x100008048, symSize: 0x0 }
+  - { offsetInCU: 0x328, offset: 0x328, size: 0x8, addend: 0x0, symName: _createServerSocket, symObjAddr: 0x0, symBinAddr: 0x100002098, symSize: 0x104 }
+  - { offsetInCU: 0x37A, offset: 0x37A, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x104, symBinAddr: 0x10000219C, symSize: 0x24 }
+  - { offsetInCU: 0x3A2, offset: 0x3A2, size: 0x8, addend: 0x0, symName: _printField, symObjAddr: 0x128, symBinAddr: 0x1000021C0, symSize: 0x11C }
+  - { offsetInCU: 0x41A, offset: 0x41A, size: 0x8, addend: 0x0, symName: _sprintField, symObjAddr: 0x244, symBinAddr: 0x1000022DC, symSize: 0x174 }
+  - { offsetInCU: 0x4AE, offset: 0x4AE, size: 0x8, addend: 0x0, symName: _setEventWithCurrentTime, symObjAddr: 0x3B8, symBinAddr: 0x100002450, symSize: 0x50 }
+  - { offsetInCU: 0x4EE, offset: 0x4EE, size: 0x8, addend: 0x0, symName: _writeEventToPipe, symObjAddr: 0x408, symBinAddr: 0x1000024A0, symSize: 0x58 }
+  - { offsetInCU: 0x512, offset: 0x512, size: 0x8, addend: 0x0, symName: _handleGardenPlot, symObjAddr: 0x460, symBinAddr: 0x1000024F8, symSize: 0x208 }
+  - { offsetInCU: 0x582, offset: 0x582, size: 0x8, addend: 0x0, symName: _writeToBuffer, symObjAddr: 0x668, symBinAddr: 0x100002700, symSize: 0x70 }
+  - { offsetInCU: 0x5D4, offset: 0x5D4, size: 0x8, addend: 0x0, symName: _gardenerHandler, symObjAddr: 0x6D8, symBinAddr: 0x100002770, symSize: 0x1F8 }
+  - { offsetInCU: 0x663, offset: 0x663, size: 0x8, addend: 0x0, symName: _runGardener, symObjAddr: 0x8D0, symBinAddr: 0x100002968, symSize: 0x44 }
+  - { offsetInCU: 0x687, offset: 0x687, size: 0x8, addend: 0x0, symName: _getField, symObjAddr: 0x914, symBinAddr: 0x1000029AC, symSize: 0xF0 }
+  - { offsetInCU: 0x6CB, offset: 0x6CB, size: 0x8, addend: 0x0, symName: _initializeField, symObjAddr: 0xA04, symBinAddr: 0x100002A9C, symSize: 0x1A0 }
+  - { offsetInCU: 0x7A5, offset: 0x7A5, size: 0x8, addend: 0x0, symName: _createSemaphores, symObjAddr: 0xBA4, symBinAddr: 0x100002C3C, symSize: 0xD8 }
+  - { offsetInCU: 0x80F, offset: 0x80F, size: 0x8, addend: 0x0, symName: _createSemaphoresSharedMemory, symObjAddr: 0xC7C, symBinAddr: 0x100002D14, symSize: 0xF0 }
+  - { offsetInCU: 0x853, offset: 0x853, size: 0x8, addend: 0x0, symName: _writeInfoToConsole, symObjAddr: 0xD6C, symBinAddr: 0x100002E04, symSize: 0x8C }
+  - { offsetInCU: 0x887, offset: 0x887, size: 0x8, addend: 0x0, symName: _runWriter, symObjAddr: 0xDF8, symBinAddr: 0x100002E90, symSize: 0x6C }
+  - { offsetInCU: 0x8B1, offset: 0x8B1, size: 0x8, addend: 0x0, symName: _readTasks, symObjAddr: 0xE64, symBinAddr: 0x100002EFC, symSize: 0x184 }
+  - { offsetInCU: 0x973, offset: 0x973, size: 0x8, addend: 0x0, symName: _resultSender, symObjAddr: 0xFE8, symBinAddr: 0x100003080, symSize: 0x60 }
+  - { offsetInCU: 0x9C9, offset: 0x9C9, size: 0x8, addend: 0x0, symName: _runTaskReader, symObjAddr: 0x1048, symBinAddr: 0x1000030E0, symSize: 0x5C }
+  - { offsetInCU: 0x9EF, offset: 0x9EF, size: 0x8, addend: 0x0, symName: _runResultSender, symObjAddr: 0x10A4, symBinAddr: 0x10000313C, symSize: 0x5C }
+  - { offsetInCU: 0xA15, offset: 0xA15, size: 0x8, addend: 0x0, symName: _sigint_handler, symObjAddr: 0x1100, symBinAddr: 0x100003198, symSize: 0x4C }
+  - { offsetInCU: 0xA3B, offset: 0xA3B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x114C, symBinAddr: 0x1000031E4, symSize: 0x3BC }
+  - { offsetInCU: 0x26, offset: 0xDC6, size: 0x8, addend: 0x0, symName: _createClientSocket, symObjAddr: 0x0, symBinAddr: 0x1000035A0, symSize: 0xE4 }
+  - { offsetInCU: 0x7B, offset: 0xE1B, size: 0x8, addend: 0x0, symName: _createClientSocket, symObjAddr: 0x0, symBinAddr: 0x1000035A0, symSize: 0xE4 }
+  - { offsetInCU: 0xCD, offset: 0xE6D, size: 0x8, addend: 0x0, symName: _getServerAddress, symObjAddr: 0xE4, symBinAddr: 0x100003684, symSize: 0xAC }
+  - { offsetInCU: 0x111, offset: 0xEB1, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x190, symBinAddr: 0x100003730, symSize: 0x24 }
+  - { offsetInCU: 0x139, offset: 0xED9, size: 0x8, addend: 0x0, symName: _sendHandleRequest, symObjAddr: 0x1B4, symBinAddr: 0x100003754, symSize: 0xF4 }
+  - { offsetInCU: 0x188, offset: 0xF28, size: 0x8, addend: 0x0, symName: _trySend, symObjAddr: 0x2A8, symBinAddr: 0x100003848, symSize: 0x180 }
+...
